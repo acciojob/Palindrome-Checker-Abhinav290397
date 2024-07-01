@@ -5,7 +5,7 @@ function palindrome(str){
 	for(let i=str.length-1;i>=0;i--){
 		rev += str.charAt(i);
 	}
-	if(rev.equals(str))return true;
+	if(rev === str)return true;
 	return false;
 }
 module.exports = palindrome
